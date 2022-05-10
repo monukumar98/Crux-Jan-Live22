@@ -3,6 +3,7 @@ package Lec36;
 public class Student {
 	private String name = "kriti";
 	private int age = 89;
+	
 
 	public Student(String name, int age) {
 		// TODO Auto-generated constructor stub
