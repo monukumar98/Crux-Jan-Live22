@@ -1,8 +1,8 @@
 package Lec37;
 
 public class Queue {
-	private int[] data;
-	private int front = 0;
+	protected int[] data;
+	protected int front = 0;
 	private int size = 0;
 
 	public Queue() {
