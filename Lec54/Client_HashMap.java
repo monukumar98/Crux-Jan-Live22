@@ -13,7 +13,7 @@ public class Client_HashMap {
 				map.put("Omika", 88);
 				map.put("Puneet", 77);
 				System.out.println(map);
-				map.put("Omika", 8);
+				map.put("Omika", 18);
 				System.out.println(map);
 				System.out.println(map.get("Raj"));
 				System.out.println(map.get("Riya"));

@@ -9,7 +9,7 @@ public class HashMap<K, V> {
 		Node next;
 
 		public Node() {
-			// TODO Auto-generated constructor stub
+			
 		}
 
 		public Node(K key, V value) {
@@ -19,6 +19,7 @@ public class HashMap<K, V> {
 	}
 
 	private ArrayList<Node> bucktarry;
+	
 	private int size = 0;
 
 	public HashMap(int x) {
