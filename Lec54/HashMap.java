@@ -130,7 +130,7 @@ public class HashMap<K, V> {
 
 		this.size--;
 		if (prev == null) {
-			this.bucktarry.set(0, curr.next);
+			this.bucktarry.set(bn, curr.next);
 			curr.next = null;
 		} else {
 			prev.next = curr.next;
